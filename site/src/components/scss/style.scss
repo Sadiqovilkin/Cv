@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
     outline: none;
-    color: #4f4f4f;
+
+}
+body{
+    background-color: #fbfbfb;
 }
 @import "../Layout/Navbar/navbar";
 @import "../Layout/Footer/footer";

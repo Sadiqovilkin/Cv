@@ -1,0 +1,55 @@
+#skills{
+
+    .container{
+
+        margin-top: 4rem;
+        background-color: white;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.25),0 3px 10px 0 rgba(0,0,0,.2);
+    }
+    .section_header{
+
+    }
+    .progress{
+        width: 100%;
+        background-color: rgb(238, 238, 238);
+        height: 20px;
+        position: relative;
+        .progress_bar{
+            background-color: #39C0ed;
+            text-align: center;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+        }
+        .purple{
+            color: white;
+            background-color: rgb(161, 26, 161) !important;
+        }
+        #html{
+            width: 95%;
+        }
+        #css{
+            width: 90%;
+        }
+        #scss{
+            width: 90%;
+        }
+        #bootstarp{
+            width: 85%;
+        }
+        #js{
+            width: 90%;
+        }
+        #react{
+            width: 90%;
+        }
+        #ts{
+            width: 70%;
+        }
+        #responsive{
+            width: 85%;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+#education{
+    .container{
+        margin-top: 4rem;
+        background-color: white;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.25),0 3px 10px 0 rgba(0,0,0,.2);
+        .education_card{
+            margin-left: 16px;
+            position: relative;
+            &::before{
+                content: '';
+                display: inline-block;
+                position: absolute;
+                background-color: #fff;
+                border-radius: 100%;
+                width: 24px;
+                height: 24px;
+                top: 16px;
+                left: -12px;
+                border: 5px solid #39c0ed;
+                z-index: 2;
+            }
+            .card_head{
+                padding: 1rem 1.5rem 0;
+                h5{
+                    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.25rem;
+    @media (max-width:413px) {
+        font-size: 1rem;
+        span{
+            font-size: 0.8rem;
+        }
+    }
+                    span{
+                        font-size: 1rem;
+                        color: #757575!important;
+                    }
+                }
+            }
+            .card_body{
+                line-height: 1.6;
+    color: #4f4f4f;
+                padding: 1rem 1.5rem ;
+                border-left: 2px solid #E6E9ED;
+                .text_small{
+                    font-size: 0.85rem;
+                }
+            }
+        }
+    }
+}

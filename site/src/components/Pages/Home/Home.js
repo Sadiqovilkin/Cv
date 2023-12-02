@@ -15,8 +15,8 @@ const Home = () => {
         <Skills/>
         <Experience/>
         <Education/>
-        <Portfolio/>
-        <Contact/>
+        {/* <Portfolio/>
+        <Contact/> */}
     </main>
   )  
 }

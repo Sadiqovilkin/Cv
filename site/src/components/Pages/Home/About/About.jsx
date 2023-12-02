@@ -8,7 +8,7 @@ const About = () => {
     <section id='about'>
         <div className="container p-5">
             <div className="row justify-content-between">
-                <div className="col-5">
+                <div className="col-lg-5 col-md-12">
                     <div className="about_desc">
                         <h2>About Me </h2>
                         <p>Hello! I’m Ilkin Sadigzade. I am passionate about UI/UX design and Web Design. I am a skilled front-end developer and master of graphic design tools such as Photoshop and Sketch. I am a quick learner and a team worker that gets the job done.
@@ -16,7 +16,7 @@ const About = () => {
 I can easily capitalize on low hanging fruits and quickly maximize timely deliverables for real-time schemas.</p>
                     </div>
                 </div>
-                <div className="col-5">
+                <div className="col-lg-5 col-md-12">
                     <div className="about_right">
                         <h2>Bio</h2>
                         <div className="lists">

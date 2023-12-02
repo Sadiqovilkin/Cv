@@ -27,6 +27,9 @@
                     color: rgb(79, 79, 79);
                     font-size: 16px;
                     padding-bottom: 8px;
+                    @media (max-width:413px) {
+                        font-size: 14px;
+                    }
                     span{
                         font-weight: bolder;
                         

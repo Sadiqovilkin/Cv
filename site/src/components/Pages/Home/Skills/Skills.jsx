@@ -8,7 +8,7 @@ const Skills = () => {
         <div className="col-12">
           <h2 className='section_header'>Professional Skills</h2>
         </div>
-        <div className="col-6">
+        <div className="col-lg-6 col-md-12">
           <div className="mb-3">
             <span className='fw-bolder'>HTML</span>
             <div className="progress my-2 rounded">
@@ -43,7 +43,7 @@ const Skills = () => {
           </div>
         
         </div>
-        <div className="col-6">
+        <div className="col-lg-6 col-md-12">
           <div className="mb-3">
             <span className='fw-bolder'>Javascript</span>
             <div className="progress my-2 rounded">
@@ -64,7 +64,7 @@ const Skills = () => {
             <span className='fw-bolder'>Typescript</span>
             <div className="progress my-2 rounded">
               <div className="progress_bar purple" id='ts'>
-              BEGINNER
+              Beginner
               </div>
             </div>
           </div>

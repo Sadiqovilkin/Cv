@@ -1,6 +1,10 @@
 nav{ 
     padding: 1.2rem 0;
     .fullnamae{
+        @media (max-width:768px) {
+            text-align: center;
+           
+        }
         h2{
             font-size: 1.25rem;
             line-height: 2.5rem;
@@ -13,6 +17,11 @@ nav{
             justify-content: right;
             align-items: center;
             gap: 5px;
+            transition: .4s ease-in-out;
+            @media (max-width:768px) {
+               justify-content: center;
+               
+            }
             li{
                 list-style: none;
                 padding: 0 10px;

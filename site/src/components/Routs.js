@@ -9,7 +9,8 @@ const Routs = [
     exact: "true",
     component: <Home />,
     fallback: <Home />,
-  },{
+  },
+  {
     path: "*",
     exact: "true",
     component: <Error/>,

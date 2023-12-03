@@ -10,10 +10,11 @@ import Layout from './components/Layout/Layout.js';
 import "./components/scss/style.scss";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
-   <Layout>
-    <App />
-    </Layout>
-  </BrowserRouter>
+  // <BrowserRouter>
+  
+  // </BrowserRouter>
+  <Layout>
+  <App />
+  </Layout>
 );
 
